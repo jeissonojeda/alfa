@@ -5,35 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <script lenguage="javascript" alert("hello everyone");></script>
 </head>
 
 <body>
-    <table border="0" align="center">
-        <tr>
-            <td align="center"><img src="imga/user logo.png" width="200"></td>
-        </tr>
-        <!-- agregar comentarios -->
-        <tr>
-            <td><label>Username</label></td>
-        </tr>
-        <tr>
-            <td><input type="email"placeholder="Username@mail.com"></td>
-        </tr>
-        <tr>
-            <td><label>Passwoord</label></td>
-        </tr>
-        <tr>
-            <td><input type="password" placeholder="***********"></td>
-        </tr>
-        <tr>
-            <td align="center"><button> Sign in</button>
-    </table>
-    <br>
-    <center>
-        <a href="#">Sign up</a><br>
-        <a href="#">Forgot password</a><br>
-        <a href="#">Terminal condicion</a><br>
-    </center>
+    <form action="/login" method="post">
+        <table border="0" align="center">
+            <tr>
+                <td align="center"><img src="imga/user logo.png" width="200"></td>
+            </tr>
+            <!-- agregar comentarios -->
+            <tr>
+                <td><label>Username</label></td>
+            </tr>
+            <tr>
+                <td><input type="email"placeholder="Username@mail.com" required></td>
+            </tr>
+            <tr>
+                <td><label>Passwoord</label></td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="***********" required></td>
+            </tr>
+            <tr>
+                <td align="center"><button> Sign in</button>
+        </table>
+        <br>
+        <center>
+            <a href="#">Sign up</a><br>
+            <a href="#">Forgot password</a><br>
+            <a href="#">Terminal condicion</a><br>
+        </center>
+    </form>
+    
 
 </body>
 
